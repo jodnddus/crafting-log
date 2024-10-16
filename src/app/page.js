@@ -45,7 +45,7 @@ export default function Home() {
                         <ProjectCarousel
                             projectName={"stool"}
                             images={images.stool}
-                            size={425}
+                            size={390}
                             isHovered={hoveredId === 'stool'}
                             onMouseEnter={handleMouseEnter}
                         />
@@ -55,7 +55,7 @@ export default function Home() {
                         <ProjectCarousel
                             projectName={"apartment-cabinet"}
                             images={images.apartmentcabinet}
-                            size={954.5}
+                            size={600}
                             isHovered={hoveredId === 'apartment-cabinet'}
                             onMouseEnter={handleMouseEnter}
                         />
@@ -65,7 +65,7 @@ export default function Home() {
                         <ProjectCarousel
                             projectName={"chairh"}
                             images={images.chairh}
-                            size={425}
+                            size={400}
                             isHovered={hoveredId === 'chairh'}
                             onMouseEnter={handleMouseEnter}
                         />
