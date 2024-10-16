@@ -3,7 +3,7 @@ import {useEffect, useState} from "react";
 import {Work_Sans} from 'next/font/google';
 
 import ProjectCarousel from "@/components/ProjectCarousel";
-import images from '@/public';
+import images from '@/public/images';
 
 const work = Work_Sans({
     subsets: ['latin'],
