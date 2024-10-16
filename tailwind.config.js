@@ -10,6 +10,10 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'title-color': '#D61518',
+      },
+      boxShadow: {
+        'normal': '0 0 0 1px black',
       },
     },
   },
