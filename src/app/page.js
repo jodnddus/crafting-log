@@ -55,7 +55,7 @@ export default function Home() {
                         <ProjectCarousel
                             projectName={"apartment-cabinet"}
                             images={images.apartmentcabinet}
-                            size={600}
+                            size={550}
                             isHovered={hoveredId === 'apartment-cabinet'}
                             onMouseEnter={handleMouseEnter}
                         />
