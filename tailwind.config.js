@@ -6,6 +6,10 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      'tablet': '768px',
+      'desktop': '1024px',
+    },
     extend: {
       colors: {
         background: "var(--background)",

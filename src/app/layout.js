@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${helvetica.variable} antialiased`}
+        className={`${helvetica.variable} antialiased m-0 p-0`}
       >
         {children}
       </body>
