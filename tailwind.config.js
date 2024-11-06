@@ -19,6 +19,9 @@ module.exports = {
       boxShadow: {
         'normal': '0 0 0 1px black',
       },
+      fontFamily: {
+        pretendard: ["var(--font-pretendard)"],
+      },
     },
   },
   plugins: [],

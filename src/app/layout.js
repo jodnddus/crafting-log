@@ -7,10 +7,12 @@ const helvetica =  localFont({
     weight: "light regular bold",
 })
 
-const helveticaLight = localFont({
-    src: './fonts/Helvetica-light.woff',
-    variable: '--font-helvetica-light',
-})
+const pretendard = localFont({
+    src: "../static/fonts/PretendardVariable.woff2",
+    display: "swap",
+    weight: "45 920",
+    variable: "--font-pretendard",
+});
 
 export const metadata = {
   title: "sawsaw",
@@ -19,9 +21,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="ko" className={`${pretendard.variable}`}>
       <body
-        className={`${helvetica.variable} antialiased m-0 p-0`}
+        className={`${helvetica.variable} ${pretendard.className} antialiased m-0 p-0`}
       >
         {children}
       </body>

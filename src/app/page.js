@@ -26,7 +26,7 @@ export default function Home() {
         <div className="home w-full px-4 h-screen">
             <div>
                 <div className="header">
-                    <h1 className="text-6xl border-b-[12px] border-[#171717]">gagu</h1>
+                    <h1 className="text-6xl border-b-[6px] border-[#171717]">gagu</h1>
                 </div>
                 <div className="body w-full mt-5">
                     <div className="projects flex flex-row flex-wrap gap-6">

@@ -20,4 +20,4 @@ const images = {
     chairh: [chairh1, chairh3, chairh4, chairh5, chairh6],
 }
 
-export default images
+export default images;
