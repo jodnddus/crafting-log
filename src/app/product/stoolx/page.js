@@ -12,13 +12,11 @@ export default function ProductPage({params}) {
         <div className="home w-full px-4 h-screen">
             <div className="header">
                 <h1 className="text-6xl border-b-[6px] border-[#171717]">
-                    <Link href={{
-                        pathname: '/',
-                    }}>
+                    <Link href={{ pathname: '/' }}>
                         gagu
                     </Link>
                     :&nbsp;
-                    <b className={`font-medium`}>{searchParams.get('title')}</b>
+                    <b className={`font-medium break-words`}>stool X</b>
                 </h1>
             </div>
             <div className="body w-full mt-5">
@@ -31,7 +29,7 @@ export default function ProductPage({params}) {
                             <div className={`max-w-[300px] tablet:w-[400px] desktop:w-[500px]`}>
                                 <Image
                                     src={item}
-                                    alt={`${searchParams.get('title')}-${index + 1}-image`}
+                                    alt={`stoolx-image-${index + 1}`}
                                 />
                             </div>
                         )
