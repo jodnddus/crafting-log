@@ -1,12 +1,9 @@
-'use client'
 import Link from 'next/link';
 import Image from "next/image";
-import {useSearchParams} from 'next/navigation';
 import images from '@/public/images';
 
 
 export default function ProductPage({params}) {
-    const searchParams = useSearchParams()
 
     return (
         <div className="home w-full px-4 h-screen">
