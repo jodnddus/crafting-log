@@ -22,10 +22,11 @@ export default function ProductPage({params}) {
                 <div className="projects flex flex-row flex-wrap justify-center tablet:justify-start desktop:justify-start gap-6">
                     {images.apartmentcabinet.map((item, index) => {
                         return (
-                            <div className={`max-w-[300px] tablet:w-[400px] desktop:w-[500px]`}>
+                            <div className={`w-[300px] tablet:w-[400px] desktop:w-[500px]`}>
                                 <Image
                                     src={item}
                                     alt={`apartmentcabinet-image-${index + 1}`}
+                                    placeholder="blur"
                                 />
                             </div>
                         )

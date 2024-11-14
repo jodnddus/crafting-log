@@ -27,6 +27,7 @@ export default function ProductPage({params}) {
                                 <Image
                                     src={item}
                                     alt={`stoolx-image-${index + 1}`}
+                                    placeholder="blur"
                                 />
                             </div>
                         )

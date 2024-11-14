@@ -29,6 +29,7 @@ function ProjectCarousel({projectName, images, size, handleOnClick}) {
                                 src={item}
                                 alt={`${projectName}-image-${index + 1}`}
                                 aria-hidden
+                                placeholder="blur"
                             />
                         </div>
                     )

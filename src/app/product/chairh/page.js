@@ -26,6 +26,7 @@ export default function ProductPage({params}) {
                                 <Image
                                     src={item}
                                     alt={`chairh-image-${index + 1}`}
+                                    placeholder="blur"
                                 />
                             </div>
                         )
