@@ -9,7 +9,7 @@ export default function ProductPage({params}) {
         <div className="w-full h-screen desktop:py-[20px]">
             <div
                 className={`px-[20px] py-[10px] desktop:px-[50px] desktop:px-[30px] desktop:max-w-[920px] flex flex-col gap-[20px] mx-[auto]`}>
-                <h1 className="header text-[30px] desktop:text-[50px] font-bold leading-[140%] flex">
+                <h1 className="header text-[30px] desktop:text-[50px] font-bold leading-[140%] flex items-center">
                     <Image
                         src={images.apartmentcabinet[0]}
                         alt={`title-image`}
@@ -21,7 +21,7 @@ export default function ProductPage({params}) {
                     apartment cabinet
                 </h1>
                 <hr className="border-[1.5px] border-[#171717]"/>
-                <p className="desc font-pretendard text-xl tablet:text-2xl tablet:leading-9 desktop:text-[16px] desktop:leading-[140%] font-medium whitespace-pre-wrap">
+                <p className="desc font-pretendard text-[14px] tablet:text-2xl tablet:leading-9 desktop:text-[16px] desktop:leading-[140%] font-medium whitespace-pre-wrap">
                 </p>
                 <b className={`desktop:text-[16px] desktop:leading-[140%] font-extrabold`}>cabinet, plywood, cherry
                     veneer, 24 summer </b>
