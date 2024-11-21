@@ -28,7 +28,7 @@ import kidschair7 from "./kidschair/7.jpg";
 import kidschair8 from "./kidschair/8.jpg";
 import kidschair9 from "./kidschair/9.jpg";
 import kidschair10 from "./kidschair/10.jpg";
-import kidschair11 from "./kidschair/11.jpg";
+import kidschair11 from "./kidschair/13.jpg";
 import kidschair12 from "./kidschair/12.jpg";
 
 const images = {

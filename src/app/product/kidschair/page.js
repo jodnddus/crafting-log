@@ -25,7 +25,7 @@ export default function ProductPage({params}) {
                 </h1>
                 <hr className="border-[1.5px] border-[#171717]"/>
                 <p className="desc font-pretendard text-xl tablet:text-2xl tablet:leading-9 desktop:text-[16px] desktop:leading-[140%] font-medium whitespace-pre-wrap">
-                    등판, 좌판, 옆판 2개 총 4덩어리로 이루어진 아동용 의자입니다. 유치원에서 볼법한 의자들이 가지고있는 굵은 두께감에서 영감을 받아 디자인 되었습니다.
+                    등판, 좌판, 옆판 2개로 이루어진 총 4개의 구성요소들을 6개의 볼트로 쉽게 결합하는 아동용 의자입니다. 유치원에서 볼법한 의자들이 가지고있는 굵은 두께감에서 영감을 받아 디자인 되었습니다.
                 </p>
                 <b className={`desktop:text-[16px] desktop:leading-[140%] font-extrabold`}>chair, cherry, bolt, 24
                     spring</b>
@@ -63,12 +63,6 @@ export default function ProductPage({params}) {
                     />
                     <Image
                         src={images.kidschair[8]}
-                        alt={`kidschair-image-0`}
-                        placeholder="blur"
-                        className={`w-full desktop:w-[400px]`}
-                    />
-                    <Image
-                        src={images.kidschair[9]}
                         alt={`kidschair-image-0`}
                         placeholder="blur"
                         className={`w-full desktop:w-[400px]`}
