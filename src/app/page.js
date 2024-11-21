@@ -33,7 +33,7 @@ export default function Home() {
                             <Link href={{pathname: '/product/stoolx'}}>
                                 <ProjectCarousel
                                     projectName={"stool"}
-                                    images={images.stool}
+                                    images={images.stool.slice(0, 3)}
                                     handleOnClick={handleOnClick}
                                 />
                             </Link>
