@@ -23,13 +23,12 @@ export default function Home() {
     };
 
     return (
-        <div className="home w-full px-4 h-screen">
-            <div>
-                <div className="header">
-                    <h1 className="text-6xl border-b-[6px] border-[#171717]">gagu</h1>
-                </div>
-                <div className="body w-full mt-5">
-                    <div className="projects flex flex-row flex-wrap gap-6">
+        <div className="w-full h-screen desktop:py-[20px]">
+            <div className="px-[20px] py-[10px] desktop:px-[50px] desktop:px-[30px] desktop:max-w-[920px] flex flex-col gap-[20px] mx-[auto]">
+                <h1 className={`header text-[30px] desktop:text-[50px] font-bold leading-[140%]`}>woongyeon’s gagu<br/>magazine</h1>
+                <hr className="border-[1.5px] border-[#171717]" />
+                <div className="body">
+                    <div className="projects flex flex-row flex-wrap gap-[20px]">
                         <div className={`stool-project flex flex-col w-[100px] desktop:w-[200px]`}>
                             <Link href={{pathname: '/product/stoolx'}}>
                                 <ProjectCarousel
@@ -38,7 +37,7 @@ export default function Home() {
                                     handleOnClick={handleOnClick}
                                 />
                             </Link>
-                            <span className={`${work.className} text-3xl font-medium mt-2`}>stool X</span>
+                            <span className={`text-[17px] desktop:text-[30px] font-normal mt-2`}>stool X</span>
                         </div>
                         <div className={`apartment-cabinet-project flex flex-col w-[200px] desktop:w-[400px]`}>
                             <Link href={{pathname: '/product/apartmentcabinet'}}>
@@ -48,8 +47,7 @@ export default function Home() {
                                     handleOnClick={handleOnClick}
                                 />
                             </Link>
-                            <span
-                                className={`inline ${work.className} text-4xl font-medium mt-2`}>apartment cabinet</span>
+                            <span className={`inline text-[17px] desktop:text-[30px] font-normal mt-2`}>apartment cabinet</span>
                         </div>
                         <div className={`stool-project flex flex-col w-[130px] desktop:w-[360px]`}>
                             <Link href={{pathname: '/product/chairh'}}>
@@ -59,17 +57,17 @@ export default function Home() {
                                     handleOnClick={handleOnClick}
                                 />
                             </Link>
-                            <span className={`inline ${work.className} text-4xl font-medium mt-2`}>chair h</span>
+                            <span className={`inline text-[17px] desktop:text-[30px] font-normal mt-2`}>chair h</span>
                         </div>
                         <div className={`stool-project flex flex-col w-[130px] desktop:w-[360px]`}>
                             <Link href={{pathname: '/product/kidschair'}}>
                                 <ProjectCarousel
                                     projectName={"chairh"}
-                                    images={images.kidschair.slice(0,3)}
+                                    images={images.kidschair.slice(0, 3)}
                                     handleOnClick={handleOnClick}
                                 />
                             </Link>
-                            <span className={`inline ${work.className} text-4xl font-medium mt-2`}>kidschair</span>
+                            <span className={`inline text-[17px] desktop:text-[30px] font-normal mt-2`}>kidschair</span>
                         </div>
                     </div>
                 </div>

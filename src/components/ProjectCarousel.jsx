@@ -7,7 +7,7 @@ import {Carousel} from 'react-responsive-carousel';
 function ProjectCarousel({projectName, images, size, handleOnClick}) {
     return (
         <div
-            className={`project-carousel cursor-pointer hover:scale-105 transition-all border border-black border-[2px]`}
+            className={`project-carousel cursor-pointer hover:scale-105 transition-all border border-black border-[2px] rounded-[3px]`}
         >
             <Carousel
                 autoPlay={true}
