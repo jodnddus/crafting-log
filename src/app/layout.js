@@ -15,8 +15,8 @@ const pretendard = localFont({
 });
 
 export const metadata = {
-  title: "sawsaw",
-  description: "wood working repository",
+  title: "gagu",
+  description: "woodworking collections",
 };
 
 export default function RootLayout({ children }) {
